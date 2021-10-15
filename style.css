@@ -120,11 +120,11 @@ body {
 }
 
 .app-download:nth-child(1){
-    background-image: url(./app-store.png);
+    background-image: url(imagem/app-store.png);
 }
 
 .app-download:nth-child(2){
-    background-image: url(./play-store.png);
+    background-image: url(imagem/play-store.png);
 }
 
 @media (max-width: 1024px){
@@ -147,6 +147,6 @@ body {
         width: 100%;
     }
     .group{
-        border: 1px solid
+        border: 1px solid transparent;
     }
 }
